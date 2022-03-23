@@ -6,7 +6,7 @@ export class Settings extends React.Component {
 
     render() {
         return (
-            <section className="settings max-width">
+            <section className="settings max-width scale-in">
                 <div className="title-container">
                     <h2>Settings</h2>
                 </div>

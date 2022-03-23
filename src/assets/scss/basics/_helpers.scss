@@ -134,3 +134,13 @@
         font-size: 15px;
     }
 }
+// animations
+
+.scale-in{
+    animation: scalein 1s;
+}
+
+.scale-out{
+    animation: scaleout 1s;
+
+}
