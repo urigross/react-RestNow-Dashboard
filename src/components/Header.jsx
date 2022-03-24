@@ -2,7 +2,7 @@ export function Header({ user, greet, changeRouting, setUserToEdit }) {
     const { fullname } = user;
     return (
         <section className="header">
-            <div className="header-container max-width">
+            <div className="header-container">
                 <div className="glass-panel">
                     <div className="title-container">
                         <h2>Welcome to <span>RestNow</span></h2>

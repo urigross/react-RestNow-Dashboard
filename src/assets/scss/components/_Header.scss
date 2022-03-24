@@ -8,6 +8,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 40px;
             h2 {
                 display: inline-block;
                 font-family: 'Quicksand-Bold';
@@ -22,7 +23,7 @@
             }
         }
         .greet-container {
-            margin-bottom: 100px;
+            margin-bottom: 80px;
         }
         nav {
             .nav-btn-container {
