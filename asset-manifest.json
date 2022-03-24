@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/react-RestNow-Dashboard/static/css/main.28dd649e.css",
-    "main.js": "/react-RestNow-Dashboard/static/js/main.7a17abcf.js",
-    "static/media/sunset_hammock.jpg": "/react-RestNow-Dashboard/static/media/sunset_hammock.1e29c65fd0d3215f5be8.jpg",
+    "main.css": "/react-RestNow-Dashboard/static/css/main.cfa0c105.css",
+    "main.js": "/react-RestNow-Dashboard/static/js/main.f88c8c3d.js",
     "static/media/Quicksand-Regular.ttf": "/react-RestNow-Dashboard/static/media/Quicksand-Regular.109d09e5f7c827d891ab.ttf",
     "static/media/Quicksand-Medium.ttf": "/react-RestNow-Dashboard/static/media/Quicksand-Medium.eb896a79553a58953cbf.ttf",
     "static/media/Quicksand-SemiBold.ttf": "/react-RestNow-Dashboard/static/media/Quicksand-SemiBold.f36a86e2ff447dc869f0.ttf",
     "static/media/Quicksand-Light.ttf": "/react-RestNow-Dashboard/static/media/Quicksand-Light.e715991b8e3173b8a2e5.ttf",
     "static/media/Quicksand-Bold.ttf": "/react-RestNow-Dashboard/static/media/Quicksand-Bold.4c3d23174e1f233b946d.ttf",
     "index.html": "/react-RestNow-Dashboard/index.html",
-    "main.28dd649e.css.map": "/react-RestNow-Dashboard/static/css/main.28dd649e.css.map",
-    "main.7a17abcf.js.map": "/react-RestNow-Dashboard/static/js/main.7a17abcf.js.map"
+    "main.cfa0c105.css.map": "/react-RestNow-Dashboard/static/css/main.cfa0c105.css.map",
+    "main.f88c8c3d.js.map": "/react-RestNow-Dashboard/static/js/main.f88c8c3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.28dd649e.css",
-    "static/js/main.7a17abcf.js"
+    "static/css/main.cfa0c105.css",
+    "static/js/main.f88c8c3d.js"
   ]
 }
