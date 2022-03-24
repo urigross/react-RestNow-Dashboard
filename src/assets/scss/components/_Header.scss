@@ -1,8 +1,8 @@
 .header {
     .header-container {
-        background-color: $clrLogoGreen;
-        background:url('../../images/sunset_hammock.jpg');
-        background-size: 100% 100%;
+        // background-color: $clrLogoGreen;
+        // background:url('../../images/sunset_hammock.jpg');
+        // background-size: 100% 100%;
         width: 100vw;
         .title-container {
             display: flex;
@@ -22,7 +22,7 @@
             }
         }
         .greet-container {
-            margin-bottom: 150px;
+            margin-bottom: 100px;
         }
         nav {
             .nav-btn-container {
