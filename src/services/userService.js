@@ -1,8 +1,12 @@
+import { getRandomOptions } from "./bigheadsService";
 import { localStorageService } from "./localStorageService";
 import { utilService } from "./util.service";
 
 const KEY = 'restNowUser';
-const users = [{id:utilService.makeId(),fullname:'Uri'},{id:utilService.makeId(),fullname:'Keren'},{id:utilService.makeId(),fullname:'Moti'}];
+const users = [
+    {id:utilService.makeId(),fullname:'Uri', avatar: getRandomOptions()},
+{id:utilService.makeId(),fullname:'Keren', avatar: getRandomOptions()},
+{id:utilService.makeId(),fullname:'Moti', avatar: getRandomOptions()}];
 
 export const userService = {
     load:loadUserFromLS,
@@ -16,14 +20,14 @@ function getMockUsers(){
     return users;
 }
 
-function initUser(){
+async function initUser(){
     if (localStorageService.isUserExists(KEY)) return;
     let user = {id:utilService.makeId(), fullname:'New User'};
-    console.log('inituser() userrrrrrrrrr',user);
+    user.avatar = getRandomOptions();
     saveUser(user);
 }
+
 function saveUser(user){
-    console.log('saveUser() userrrrrrrrrr',user);
     localStorageService.save(KEY,user);
 }
 function loadUserFromLS(){
