@@ -1,10 +1,9 @@
 .home{
     font-family: 'Quicksand-Regular';
     margin: 0 auto;
-    background: url('https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center;
-    background-size: cover;    
-    height: 100vh;
-
+    background: url('https://images.pexels.com/photos/1655166/pexels-photo-1655166.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat 69% 100%;
+    min-height: 100vh;
+    
 }
 
 h2,h3{
@@ -13,4 +12,16 @@ h2,h3{
 
 p,input,button,label{
     font-size: $defFontSize;
+}
+
+@media screen and (max-width:730px){
+    .home{
+        background-size: cover;    
+    }
+}
+
+@media screen and (max-width:480px){
+    .home{
+        background-position-x: 67%;
+    }
 }
