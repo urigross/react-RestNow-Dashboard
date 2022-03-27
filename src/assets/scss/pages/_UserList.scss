@@ -1,5 +1,16 @@
 .user-list-container{
     gap:60px;
     margin: 0 40px;
+}
 
+@media only screen and(max-width: 1000px){
+    .user-list-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and(max-width: 730px) {
+    .user-list-container {
+        // width: 400px;
+    }
 }

@@ -1,8 +1,5 @@
 .header {
     .header-container {
-        // background-color: $clrLogoGreen;
-        // background:url('../../images/sunset_hammock.jpg');
-        // background-size: 100% 100%;
         width: 100vw;
         .title-container {
             display: flex;
@@ -32,6 +29,40 @@
                 gap: 60px;
                 padding-bottom: 50px;
             }
+        }
+    }
+}
+
+@media only screen and(max-width: 770px) {
+    .header {
+        .header-container {
+            nav {
+                .nav-btn-container {
+                    gap: 20px;
+                }
+                .glass-button {
+                    min-width: 150px;
+                    // padding: 5px 15px;
+                }
+            }
+            // width: 400px;
+        }
+    }
+}
+
+
+@media only screen and(max-width: 520px) {
+    .header {
+        .header-container {
+            nav {
+                .nav-btn-container {
+                }
+                .glass-button {
+                    min-width: 110px;
+                    padding: 5px 15px;
+                }
+            }
+            // width: 400px;
         }
     }
 }
